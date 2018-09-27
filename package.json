@@ -1,0 +1,30 @@
+{
+  "name": "@codelinefi/maclookup",
+  "version": "1.0.1",
+  "description": "Node.js library for MAC Vendor Lookup API by macaddress.io",
+  "main": "index.js",
+  "author": "CodeLine OY (https://macaddress.io)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.82.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeLineFi/maclookup-nodejs.git"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "nock": "^9.4.3",
+    "nyc": "^13.0.1"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [
+    "mac",
+    "address",
+    "lookup",
+    "macaddress",
+    "maclookup"
+  ]
+}
